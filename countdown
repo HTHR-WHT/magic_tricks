@@ -1,0 +1,57 @@
+<style id="jsbin-css">
+body {
+  background-color: navy;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: orange;
+}
+</style>
+<!DOCTYPE html>
+<html>
+<body>
+  <h1 id="timer">5</h1>
+<script id="jsbin-javascript">
+var timeRemaining = 5;
+var timerElement = document.getElementById("timer");
+
+function countdown(){
+  timeRemaining = timeRemaining - 1;
+  if(timeRemaining <= 0) {
+    timerElement.innerText = "LIFT OFF!";
+  } else {
+    timerElement.innerText = timeRemaining;
+  }
+} 
+
+setInterval(countdown, 1000);
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">body {
+  background-color: navy;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: orange;
+}
+
+</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">
+var timeRemaining = 5;
+var timerElement = document.getElementById("timer");
+
+function countdown(){
+  timeRemaining = timeRemaining - 1;
+  if(timeRemaining <= 0) {
+    timerElement.innerText = "LIFT OFF!";
+  } else {
+    timerElement.innerText = timeRemaining;
+  }
+} 
+
+setInterval(countdown, 1000);</script></body>
+</html>
