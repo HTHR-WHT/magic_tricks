@@ -1,2 +1,2 @@
 # magic_tricks
-toggle
+fun stuff i'm learning
