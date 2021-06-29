@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+h1 {
+  color: purple;
+}
+
+p {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+</style>
+</head>
+<body>
+  <h1 id='magic'>Abracadabra!</h1>
+  <p id="bunn">little rabbit in the hat</p>
+<script id="jsbin-javascript">
+console.clear();
+
+let h1 = document.getElementById("magic");
+let p = document.getElementById("bunn");
+
+h1.addEventListener("click", function() {
+  p.classList.toggle("hidden");
+});
+
+//console.log(p.innerText);
+</script>
+
+
+<script id="jsbin-source-css" type="text/css">h1 {
+  color: purple;
+}
+
+p {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}</script>
+
+<script id="jsbin-source-javascript" type="text/javascript">console.clear();
+
+let h1 = document.getElementById("magic");
+let p = document.getElementById("bunn");
+
+h1.addEventListener("click", function() {
+  p.classList.toggle("hidden");
+});
+
+//console.log(p.innerText);
+
+</script></body>
+</html>
